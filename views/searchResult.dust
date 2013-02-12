@@ -1,0 +1,21 @@
+<div class="span9" >
+    <div class="well">
+        <ul class="media-list" style="list-style-type:none;">
+            {#productSearchResults.products}
+            <li class="media" style="background-color: white;margin-bottom:10px; padding-top:10px;padding-bottom: 10px;"">
+            <a class="pull-left" href="#">
+                <div class="nailthumb-container"><img class="media-object" src="{image}"></div>
+            </a>
+            <div class="media-body">
+                <div style="margin-left:110px;">
+                    <h4 class="media-heading">Product Name: {name}</h4>
+                    <p><b>BaseProductId:</b> {baseProductId}</p>
+                    <p><b>ProductIt:</b> {productId}</p>
+                    <p><b>GTIN:</b> {gtin}</p>
+                </div>
+            </div>
+            </li>
+            {/productSearchResults.products}
+        </ul>
+    </div>
+</div><!--/span-->

@@ -1,0 +1,30 @@
+<script src="/javascripts/jquery-1.8.2.min.js"></script>
+<script src="/javascripts/bootstrap.min.js"></script>
+<script src="/javascripts/jquery.activity-indicator-1.0.0.min.js"></script>
+<script type="text/javascript" src="/javascripts/nailthumb 2/jquery.nailthumb.1.1.js"></script>
+
+<link href="/stylesheets/bootstrap.css" rel="stylesheet">
+<style type="text/css">
+    body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+</style>
+<link href="/stylesheets/bootstrap-responsive.css" rel="stylesheet">
+<title>{title}</title>
+<script>
+
+    $(document).ready(function(){
+        $("#login").click(function(event){
+            window.location="/login";
+        });
+        $("#productSearch").click(function(event){
+            window.location="/productSearch";
+        });
+
+        $('.nailthumb-container').nailthumb({width:100,height:100});
+    });
+
+
+
+</script>

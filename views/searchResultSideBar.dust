@@ -1,0 +1,14 @@
+<div class="span3">
+    <div class="well sidebar-nav">
+        <ul class="nav nav-list">
+            <li class="nav-header">Top Retailers</li>
+            {#productSearchResults.topRetailers}
+            <li><a href="#">{name}</a></li>
+            {/productSearchResults.topRetailers}
+            <li class="nav-header">Top Manufacturers</li>
+            {#productSearchResults.topManufacturers}
+            <li><a href="#">{name}</a></li>
+            {/productSearchResults.topManufacturers}
+        </ul>
+    </div><!--/.well -->
+</div><!--/span-->

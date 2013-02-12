@@ -1,0 +1,24 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    {>"header" /}
+</head>
+<body>
+
+    {>"navigation" /}
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+            {>"searchResultSideBar" /}
+            <div class="span9" >
+                {>"searchBar" /}
+            </div>
+            {>"searchResult" /}
+        </div><!--/row-->
+        <hr>
+        <footer>
+            <p></p>
+        </footer>
+
+    </div><!--/.fluid-container-->
+
+</body>

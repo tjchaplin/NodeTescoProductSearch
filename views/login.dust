@@ -1,0 +1,53 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    {>"header" /}
+    <script>
+
+        $(document).ready(function(){
+            $('#myModal').modal('show');
+
+            $("#googleLogin").click(function(event){
+                alert("googleLogin");
+                window.location="/auth/google";
+            });
+        });
+    </script>
+</head>
+<body>
+{>"navigation" /}
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12" >
+            {>"searchBar" /}
+        </div>
+    </div><!--/row-->
+
+    <!--
+        Button to trigger modal
+        <a href="#myModal" role="button" class="btn" data-toggle="modal">Sign In</a>
+    -->
+
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" data-show="true" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="myModalLabel">Login</h3>
+        </div>
+        <div class="row-fluid">
+            <div class="span4 offset4">
+                <button id="googleLogin" class="btn" style="width:200px">Sign In</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <hr>
+    <footer>
+    </footer>
+
+</div>
+
+</body>
+

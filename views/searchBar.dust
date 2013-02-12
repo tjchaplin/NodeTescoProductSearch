@@ -1,0 +1,6 @@
+<div class="well">
+    <form class="form-search" action="/productSearch" style="margin-top: 5px;margin-bottom: 5px;" method="get">
+        <input type="text" style="width:80%; height:10%;" name="searchString">
+        <button id="productSearch" type="submit" class="btn btn-primary btn-large" style="margin-left: 5%; width:15%; height: 10%;">Search</button>
+    </form>
+</div>
